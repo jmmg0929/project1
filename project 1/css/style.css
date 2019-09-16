@@ -1,0 +1,407 @@
+#top{
+  background-color: #2498f4;
+}
+#title{
+  float: right;
+  font-family: myriad-pro, sans-serif;
+  color: white;
+}
+#project-host{
+  color: white;
+  font-family: myriad-pro, sans-serif;
+  float: left;
+}
+.vl{
+  border-left: 1px solid gray;
+  height:10px;
+  position: relative;
+}
+.nav-background-image{
+  background-image: url('../img/menu_background.png');
+  background-size: auto 150px;
+  background-repeat: no-repeat;
+}
+.menu-icon{
+    display:block;
+    float:left;
+    margin-left:35px;
+    position:relative;
+    min-height:35px;
+    max-width:125px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    text-align:center;
+}
+.menu-shadow{
+  display:block;
+  float:left;
+  margin-left:30px;
+  position:relative;
+  max-width:125px;
+  text-align:center;
+}
+.dashboard{
+  background-color: #33cc66;
+  margin-top: 10px;
+  height: auto;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+#dashboard-title{
+  color: white;
+  font-family: myriad-pro, sans-serif;
+  display:inline-block;
+}
+#search-bar{
+  background-color: white;
+  float: right;
+  border-radius: 2.5px;
+  height: auto;
+  width: 150px;
+}
+#search-icon{
+  float: right;
+  padding: 2px 2px 2px 0px;
+}
+/* background gradient */
+.background-gradient{
+  background-image: linear-gradient(rgba(232, 236, 241, 1), rgba(200,0,0,0));
+  border-radius: 5px;
+  height: auto;
+  width: 110%;
+
+}
+/* Announcements */
+.announcements-space{
+  margin-top: 10px;
+}
+.border-test{
+  border: 1px solid rgba(232,236, 241, .75);
+  background-color: white;
+}
+#announcements-title{
+  font-family: myriad-pro, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+.dummy-announcement{
+  font-family: myriad-pro, sans-serif;
+  font-size: 12px;
+
+}
+/* Arrows */
+.circle{
+  font-size: 15px;
+  color: #ff9b13;
+  border-radius: 50%;
+  border: 1px solid rgba(228, 233, 237, 1);
+  box-shadow: 1px 1px 4px rgba(228, 233, 237, 1);
+  padding: 0px 4px 1px 3px;
+  vertical-align: middle;
+}
+#left{
+  float: right;
+}
+#right{
+  float: left;
+}
+/* Tasks */
+.tasks-border{
+  border-bottom-style: solid;
+  border-bottom-color: rgba(228, 233, 237, 0.5);
+   background-color: white;
+   padding-top: 10px;
+}
+#tasks-title{
+  font-family: myriad-pro, sans-serif;
+  color: #2498f4;
+  float: left;
+}
+#settings-icon-tasks{
+  float: right;
+}
+/* List Items */
+.number-circle{
+  border-radius: 50%;
+  background-color: #33cc66;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-family: myriad-pro, sans-serif;
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+.ol-titles{
+  font-family: myriad-pro, sans-serif;
+  float: left;
+}
+.person-icon{
+  float: right;
+  font-family: myriad-pro, sans-serif;
+  border: 1px solid rgba(228, 233, 237, .75);
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+}
+/* Analytics */
+.analytics-border{
+  background-color: white;
+  border: 1px solid rgba(228, 233, 237, .75);
+  float: right;
+}
+#analytics-title{
+  font-family: myriad-pro, sans-serif;
+  color: #2498f4;
+}
+#activity-title{
+  font-family: myriad-pro, sans-serif;
+  font-size: 12px;
+  float:left;
+  margin-right: 50px;
+}
+#graph-bar{
+  width: 110%;
+  height: auto;
+}
+#vl-long{
+  border-right: 1px solid rgba(228, 233, 237, .75);
+  margin: 0px 2px 0px 2px;
+  height: 500px;
+}
+#graph-circle{
+  float: left;
+  height: auto;
+  width: 95%;
+}
+/* Dropdown Menu */
+#vl{
+  border-left: 1px solid #dddddd;
+  margin: 0px 2px 0px 2px;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 2.5px;
+  cursor: pointer;
+  justify-content:space-between;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-family: myriad-pro, sans-serif;
+  font-size: 10px;
+  padding: 12px 16px;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ff9b13;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #ff9b13;
+}
+.cb-container{
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.cb-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.cb-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cb-container input:checked ~ .checkmark {
+  background-color: #ff9b13;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cb-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cb-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Recommendations */
+#rec-title{
+  font-family: myriad-pro, sans-serif;
+  color: #2498f4;
+}
+.articles{
+  font-family: myriad-pro, sans-serif;
+  color: #b5b5b5;
+  font-size: 8px;
+  margin-left: 10px;
+}
+.rec-icon{
+  margin: 10px 10px 10px 0px;
+}
+/* Mother of god */
+.big-poppa{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+}
+.smaller-box{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 150px;
+  height: 150px;
+}
+.person{
+  position: absolute;
+  width: auto;
+  height: 75px;
+  left: 40px;
+  bottom: 90px;
+}
+.banner{
+  background-color: #2498f4;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  top: 50px;
+}
+.graph-line{
+  width: 50%;
+  margin: auto;
+  height: auto;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.data1{
+  font-family: myriad-pro, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+.data2{
+  font-family: myriad-pro, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+.b-left{
+  float: left;
+  position: absolute;
+  left: -15px;
+  top: 50px;
+}
+.b-right{
+  float: right;
+  position: absolute;
+  right:-15px;
+  top: 50px;
+}
+.blue-box{
+  margin: 25px 10px 25px 10px;
+  background-color: #2498f4;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.didyou{
+  font-family: myriad-pro, sans-serif;
+  color: white;
+  font-size: 12px
+  padding: 10px 10px 10px 10px;
+}
+.blue-content{
+  font-family: myriad-pro, sans-serif;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+}
+#arrow-l{
+  float: left;
+  height: 50px;
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+}
+#arrow-r{
+  float: right;
+  height: 50px;
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+}
+#ad-parent{
+  background-color: #2498f4;
+  border-radius: 2.5px;
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+.ad{
+  width: 20%;
+  height: auto;
+}
+#ad1{
+  background-color: white;
+  border-radius: 5px;
+  width: 33%;
+  height: auto;
+}
